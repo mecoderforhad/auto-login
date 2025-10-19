@@ -60,8 +60,8 @@ def main():
         login(driver)
         print("✅ Logged in successfully!")
         if not HEADLESS:
-            print("Keeping browser open for 10 seconds...")
-            time.sleep(100)
+            print("Keeping browser open for 60 seconds...")
+            time.sleep(60)
     except Exception as e:
         print("❌ Login failed:", e)
     finally:
